@@ -39,3 +39,13 @@ To use on your own site, simply upload both the JavaScript and PHP files and the
 	<script src="itunes.js"></script>
 
 You will need to amend the first line within `itunes.js` so that the `pathToAPI` variable points to the absolute URL of the `api.php` file running on a PHP server.
+
+## Local
+
+To run locally with [Docker Compose](https://docs.docker.com/compose/):
+
+```sh
+docker compose up
+```
+
+Then navigate to http://localhost:8080.
